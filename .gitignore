@@ -1,0 +1,47 @@
+# Virtual environment
+sbenv/
+venv/
+env/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# Checkpoints and model files
+*.pth
+*.pt
+*.ckpt
+best_*.pth
+iam_htr_*.pth
+hindi_xlm.pth
+*.log
+
+# Datasets (large files)
+dataset/
+*.zip
+*.tgz
+*.tbz2
+*.tar.gz
+*.png
+*.jpg
+*.jpeg
+
+# IDE / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary files
+*.tmp
+*.pkl
+inference_checkpoint_*.pkl
+
+# Test results
+test_results_*/
+error_analysis_*/
+*.csv
+
+# Jupyter outputs
+*.ipynb
+!*.ipynb  # Uncomment if you want to track notebooks

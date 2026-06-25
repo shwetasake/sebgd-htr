@@ -1,0 +1,35 @@
+Optuna Study Hyperparameter Tuning Progress Log
+Study Name: hvlt_iam_tuning
+==================================================
+Trial 0 finished with value (Val CAR): 74.08%
+Parameters:
+  lr: 3.071057367777371e-05
+  weight_decay: 0.0007969454818643932
+  llrd_decay: 0.8195981825434215
+  dropout: 0.279597545259111
+  embed_dropout: 0.1312037280884873
+  label_smooth: 0.0733991780504304
+  batch_size: 16
+  elastic_alpha: 38.32290311184182
+  elastic_sigma: 3.1029224714790122
+  rotate_limit: 8
+  noise_var: 44
+  brightness_lim: 0.16370173320348286
+State: TrialState.COMPLETE
+----------------------------------------
+Trial 1 finished with value (Val CAR): 68.18%
+Parameters:
+  lr: 1.724089219582151e-05
+  weight_decay: 2.3270677083837777e-05
+  llrd_decay: 0.6912726728878613
+  dropout: 0.2574269294896714
+  embed_dropout: 0.18638900372842315
+  label_smooth: 0.0936843710297063
+  batch_size: 8
+  elastic_alpha: 24.654473731747668
+  elastic_sigma: 5.28034992108518
+  rotate_limit: 7
+  noise_var: 22
+  brightness_lim: 0.2542703315240835
+State: TrialState.COMPLETE
+----------------------------------------
