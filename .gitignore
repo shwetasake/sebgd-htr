@@ -45,3 +45,6 @@ error_analysis_*/
 # Jupyter outputs
 *.ipynb
 !*.ipynb  # Uncomment if you want to track notebooks
+*.pth
+*.pt
+dataset/
